@@ -67,6 +67,12 @@ header .container{
 .text-light{
   color: #4c4b4b !important;
 }
+.bg-secondary{
+  background-color: #F2F2F2 !important;
+}
+.bg-primary{
+  background-color: #447DFC  !important;
+}
 
 
 
@@ -387,7 +393,16 @@ button#ScrollToTop:hover {
   background-color: #000;
   opacity: 50%;
 }
-
+.testimonial-sec .slick-track {
+    display: flex;
+    gap: 25px;
+}
+.testimonial-sec .slick-slide{
+  height: auto;
+}
+.testimonial-sec .slick-slide > div{
+  height: 100%;
+}
 
 
 @media (max-width: 991.60px) {

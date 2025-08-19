@@ -61,6 +61,7 @@ $(".services-slider-wrap").slick({
     },
   ],
 });
+
 $(".services-slider-wrap2").slick({
   dots: false,
   arrows: true,
@@ -90,6 +91,26 @@ $(".services-slider-wrap2").slick({
         slidesToScroll: 1,
       },
     },
+  ],
+});
+
+
+$(".testimonial-wrap").slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    
   ],
 });
 
